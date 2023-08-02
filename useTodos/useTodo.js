@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from "react";
-import { todoReducer } from "../useReducer/todoReducer";
+import { todoReducer } from "./todoReducer";
 
 //se ha pasado la lógica que habia que TodoApp a un customHook para mantener el código mas limpio
 const initialState = [];
